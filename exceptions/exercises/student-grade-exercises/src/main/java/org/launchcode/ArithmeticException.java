@@ -1,7 +1,5 @@
-package PACKAGE_NAME;
-
-public class ArithmeticException extends RuntimeException {
-  public ArithmeticException(String message) {
-    super(message);
-  }
+public class CustomArithmeticException extends Exception {
+    public CustomArithmeticException(String message) {
+        super(message);
+    }
 }
